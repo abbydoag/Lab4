@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
 
                 ) {
-                    Screen1("Hola")
+                    Screen1("Abby")
                 }
             }
         }
@@ -196,14 +196,6 @@ fun Screen1(name:String, modifier: Modifier = Modifier){
             }
         }
 }
-
-@Composable
-fun HomeMenu() {
-    Row (verticalAlignment = Alignment.CenterVertically, modifier = Modifier){
-        Text(text = "welcome")
-    }
-}
-
 
 @Preview(showBackground = true)
 @Composable
